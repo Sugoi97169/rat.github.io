@@ -15,19 +15,19 @@ let ly;
 let rx = lx-25;
 let ry;
 function preload() {
-   bgImg = loadImage('https://i.imgur.com/WcZfVot.jpg');
+  /* bgImg = loadImage('https://i.imgur.com/WcZfVot.jpg');
   soilImg = loadImage('https://i.imgur.com/Yfv6ZKl.png');
   lifeImg= loadImage('https://i.imgur.com/6oyM6zd.png');
   soldierImg = loadImage('https://i.imgur.com/xKMFfng.png');
   robotImg = loadImage('https://i.imgur.com/F6uvcIg.png');
-   ratImg  = loadImage('https://i.imgur.com/rCXIeLn.png');
+   ratImg  = loadImage('https://i.imgur.com/rCXIeLn.png');*/
    
-    /* bgImg = loadImage('img/bg.png');
+  bgImg = loadImage('img/bg.png');
   soilImg = loadImage('img/soil.png');
   lifeImg= loadImage('img/life.png');
   soldierImg = loadImage('img/soldier.png');
   robotImg = loadImage('img/robot.png');
-   ratImg  = loadImage('img/rat.png');*/
+   ratImg  = loadImage('img/rat.png');
 }
 function setup(){
     createCanvas(640, 480, P2D);
